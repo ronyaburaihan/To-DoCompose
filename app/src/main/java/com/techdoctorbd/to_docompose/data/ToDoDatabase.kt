@@ -5,6 +5,6 @@ import androidx.room.RoomDatabase
 import com.techdoctorbd.to_docompose.data.models.TaskItem
 
 @Database(entities = [TaskItem::class], version = 1, exportSchema = false)
-abstract class TaskDatabase : RoomDatabase() {
-    abstract fun taskDao(): TaskDao
+abstract class ToDoDatabase : RoomDatabase() {
+    abstract fun todoDao(): ToDoDao
 }
