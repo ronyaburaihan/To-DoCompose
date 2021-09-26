@@ -20,7 +20,7 @@ val NonePriorityColor = Color(0xFFFFFFFF)
 
 val Colors.fabBackgroundColor: Color
     @Composable
-    get() = if (isLight) Purple700 else Purple700
+    get() = if (isLight) Purple500 else Purple700
 
 val Colors.topAppBarContentColor: Color
     @Composable
